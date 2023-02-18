@@ -1,0 +1,129 @@
+body{
+    font-family: sans-serif;
+    background-color: #DEFCF9;
+}
+
+.top-bar ul li{
+    display: inline-block;
+    margin: 4px;
+}
+.top-bar ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 8px;
+    font-size: 10px;  
+}
+.top-bar ul li a:hover{
+    color: #362FD9;
+}
+.top-bar{
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: right;
+}
+.pic-info{
+    font-family: serif;
+    text-align: center;
+}
+.pic-info img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+.mj{
+    color: #362FD9;
+    font-size: 30px;
+    margin: 0px;
+}
+.web{
+    margin: 10px;
+}
+.web span{
+    color: #362FD9;
+    display: block;
+}
+hr{
+    border: dotted rgb(180, 180, 180) 5px;
+    border-bottom: none;
+    width: 20%;
+    margin: 30px auto;
+}
+.container-2{
+    width: 75%;
+    margin: 50px auto 50px;
+    vertical-align: center;
+}
+.container-2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 20px;
+}
+.info h1{
+    font-size: 16px;
+    font-family: serif;
+}
+.info p{
+    font-size: 10px;
+}
+.container-3{
+    vertical-align: center;
+    text-align: center;
+}
+.container-3 p{
+    display: inline-block;
+    margin: 15px;
+    
+}
+.container-3 a img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-bottom: -5px;
+}
+.contect{
+    font-size: 12px;
+    margin-left: 20px;
+    color: #362FD9;
+}
+.copy{
+    font-size: 8px;
+}
+
+@media (max-width: 480px){
+    .top-bar{
+        display: none;
+    }
+    .container-2 img{
+        float: none;
+    }
+    .info p{
+        font-size: 13px;
+    }
+}
+@media (min-width: 480px) and (max-width: 720px){
+    .top-bar ul li a{
+        font-size: 18px;  
+    }
+    .top-bar{
+        margin-right: 30px;
+    }
+    .mj{
+        font-size: 40px;
+    }
+    .web{
+        font-size: 30px;
+    }
+    hr{
+        border: dotted rgb(174, 174, 174) 10px;
+        border-bottom: none;
+    }
+   
+    .info h1{
+        font-size: 24px;
+    }
+    .info p{
+        font-size: 18px;
+    }
+}
